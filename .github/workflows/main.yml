@@ -14,7 +14,6 @@ jobs:
           npm install
           ls
           pwd
-          cd node_modules
           git init
           git add .
           git config --global user.name 'Your Name'
