@@ -17,5 +17,5 @@ jobs:
           git add node_modules old_package.json
           git config --global user.name 'Your Name'
           git config --global user.email 'your-username@users.noreply.github.com'
-          git commit -a "Automated report"
+          git commit "Automated report"
           git push --force
