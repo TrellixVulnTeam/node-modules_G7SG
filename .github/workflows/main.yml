@@ -12,9 +12,7 @@ jobs:
       - name: Commit report
         run: |
           npm install
-          mv package.json old_package.json
-          ls
-          pwd
+          cp package.json old_package.json
           git init
           git add node_modules old_package.json
           git config --global user.name 'Your Name'
